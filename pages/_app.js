@@ -1,7 +1,11 @@
-import '../styles/globals.css'
-
+import "../styles/globals.css";
+import { ToggleProvider } from "./ToggleContext";
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <ToggleProvider>
+      <Component {...pageProps} />
+    </ToggleProvider>
+  );
 }
 
-export default MyApp
+export default MyApp;

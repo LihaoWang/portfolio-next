@@ -21,7 +21,7 @@ function About() {
           </p>
         </div>
         <div className="imgBx">
-          <img style={{ maxHeight: "50vh" }} src="bg1.jpg" alt="" />
+          <img style={{ maxHeight: "50vh" }} src="bg1.JPG" alt="" />
         </div>
       </div>
     </section>

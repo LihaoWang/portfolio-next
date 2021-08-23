@@ -8,15 +8,19 @@ import Skills from "./components/Skills";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import TopBar from "./components/TopBar";
+import { ToggleProvider, useToggle } from "./ToggleContext";
+
 export default function Home() {
+  const toggle = useToggle();
   return (
     <div>
       <Head>
         <title>Leo Wang</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
+
       <Nav />
-      <div className="main">
+      <div className={`main ${toggle ? "active" : ""}`}>
         <TopBar />
         <Banner />
         <About />
