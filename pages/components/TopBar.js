@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import { useToggle, useToggleUpdate } from "./ToggleContext";
+import { useToggle, useToggleUpdate } from "../../ToggleContext";
 function TopBar() {
   const toggle = useToggle();
   const handleClick = useToggleUpdate();

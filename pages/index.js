@@ -8,7 +8,7 @@ import Skills from "./components/Skills";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import TopBar from "./components/TopBar";
-import { ToggleProvider, useToggle } from "./components/ToggleContext";
+import { ToggleProvider, useToggle } from "../ToggleContext";
 
 export default function Home() {
   const toggle = useToggle();
