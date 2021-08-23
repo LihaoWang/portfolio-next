@@ -2,6 +2,8 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Banner() {
+  const resumeURL = process.env.NEXT_PUBLIC_RESUME_URL;
+  console.log(process.env.NEXT_PUBLIC_RESUME_URL);
   return (
     <section className="banner" id="banner">
       <div className="content">
@@ -12,10 +14,7 @@ function Banner() {
         <p style={{ fontSize: "1.1em", marginBottom: "15px" }}>
           I&apos;m a Software Engineer and Web Designer
         </p>
-        <a
-          href="https://drive.google.com/file/d/1LPyRK5HtkgSbRTPhTb4x5TFnuBjbeC09/view?usp=sharing"
-          className="btn"
-        >
+        <a href={resumeURL} className="btn">
           Download my resume
         </a>
         <ul className="socialMedia">
