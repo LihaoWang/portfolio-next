@@ -1,10 +1,17 @@
 import React from "react";
-import { useToggle, useToggleUpdate } from "../ToggleContext";
+import { useToggle, useToggleUpdate, useUpdateTheme } from "../ToggleContext";
+import { isMobile } from "react-device-detect";
 function Nav() {
   const toggle = useToggle();
   const setToggle = useToggleUpdate();
-  const handleClick = (e) => {
-    setToggle();
+  const setTheme = useUpdateTheme();
+  const handleClick = () => {
+    if (isMobile) {
+      setToggle();
+    }
+  };
+  const updateTheme = () => {
+    setTheme();
   };
   return (
     <div>
@@ -35,6 +42,7 @@ function Nav() {
             </a>
           </li>
         </ul>
+        <div className="themeSwitch" onClick={updateTheme}></div>
       </div>
     </div>
   );

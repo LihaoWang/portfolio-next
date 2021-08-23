@@ -8,12 +8,13 @@ import Skills from "../components/Skills";
 import Project from "../components/Project";
 import Contact from "../components/Contact";
 import TopBar from "../components/TopBar";
-import { ToggleProvider, useToggle } from "../ToggleContext";
+import { ToggleProvider, useToggle, useTheme } from "../ToggleContext";
 
 export default function Home() {
   const toggle = useToggle();
+  const darkTheme = useTheme();
   return (
-    <div>
+    <div className={darkTheme ? "dark" : ""}>
       <Head>
         <title>Leo Wang</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -25,7 +26,6 @@ export default function Home() {
         <Banner />
         <About />
         <Project />
-
         <Contact />
       </div>
     </div>
