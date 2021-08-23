@@ -6,10 +6,12 @@ function Banner() {
     <section className="banner" id="banner">
       <div className="content">
         <div className="imgBx">
-          <img src="user.jpg" alt="" />
+          <img src="avatar.png" alt="" />
         </div>
         <h3>Lihao Wang</h3>
-        <p>I&apos;m a Software Engineer and Web Designer</p>
+        <p style={{ fontSize: "1.1em", marginBottom: "15px" }}>
+          I&apos;m a Software Engineer and Web Designer
+        </p>
         <a href="#" className="btn">
           Download my resume
         </a>
