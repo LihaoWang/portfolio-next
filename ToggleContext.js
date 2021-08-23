@@ -11,7 +11,7 @@ export function useToggleUpdate() {
 }
 
 export function ToggleProvider({ children }) {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
 
   function updateToggle() {
     setToggle((prevToggle) => !prevToggle);

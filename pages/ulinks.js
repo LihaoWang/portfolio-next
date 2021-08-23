@@ -1,6 +1,6 @@
 import React from "react";
-import Nav from "./components/Nav";
-import TopBar from "./components/TopBar";
+import Nav from "../components/Nav";
+import TopBar from "../components/TopBar";
 function ulinks() {
   return (
     <div>

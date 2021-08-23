@@ -1,10 +1,9 @@
 import React from "react";
-import { useToggle, useToggleUpdate } from "../../ToggleContext";
+import { useToggle, useToggleUpdate } from "../ToggleContext";
 function Nav() {
   const toggle = useToggle();
   const setToggle = useToggleUpdate();
   const handleClick = (e) => {
-    e.preventDefault();
     setToggle();
   };
   return (

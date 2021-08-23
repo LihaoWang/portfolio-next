@@ -1,13 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
 
-import Nav from "./components/Nav";
-import Banner from "./components/Banner";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Project from "./components/Project";
-import Contact from "./components/Contact";
-import TopBar from "./components/TopBar";
+import Nav from "../components/Nav";
+import Banner from "../components/Banner";
+import About from "../components/About";
+import Skills from "../components/Skills";
+import Project from "../components/Project";
+import Contact from "../components/Contact";
+import TopBar from "../components/TopBar";
 import { ToggleProvider, useToggle } from "../ToggleContext";
 
 export default function Home() {
