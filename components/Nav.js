@@ -1,10 +1,17 @@
 import React from "react";
-import { useToggle, useToggleUpdate, useUpdateTheme } from "../ToggleContext";
+import {
+  useToggle,
+  useToggleUpdate,
+  useUpdateTheme,
+  useTheme,
+} from "../ToggleContext";
 import { isMobile } from "react-device-detect";
+import { FaMoon, FaSun } from "react-icons/fa";
 function Nav() {
   const toggle = useToggle();
   const setToggle = useToggleUpdate();
   const setTheme = useUpdateTheme();
+  const darkTheme = useTheme();
   const handleClick = () => {
     if (isMobile) {
       setToggle();
@@ -42,7 +49,9 @@ function Nav() {
             </a>
           </li>
         </ul>
-        <div className="themeSwitch" onClick={updateTheme}></div>
+        <div className="themeSwitch" onClick={updateTheme}>
+          {darkTheme ? <FaSun /> : <FaMoon />}
+        </div>
       </div>
     </div>
   );

@@ -494,14 +494,14 @@ p {
   align-items: center;
 }
 
-.themeSwitch::before {
+/* .themeSwitch::before {
   content: "\f186";
   font-family: fontAwesome;
 }
 .dark .themeSwitch::before {
   content: "\f185";
   font-family: fontAwesome;
-}
+} */
 .themeSwitch::after {
   content: "Switch To Dark Mode";
   position: absolute;

@@ -12,7 +12,10 @@ function Banner() {
         <p style={{ fontSize: "1.1em", marginBottom: "15px" }}>
           I&apos;m a Software Engineer and Web Designer
         </p>
-        <a href="#" className="btn">
+        <a
+          href="https://drive.google.com/file/d/1LPyRK5HtkgSbRTPhTb4x5TFnuBjbeC09/view?usp=sharing"
+          className="btn"
+        >
           Download my resume
         </a>
         <ul className="socialMedia">
