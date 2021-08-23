@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import { ToggleProvider } from "./ToggleContext";
+import { ToggleProvider } from "./components/ToggleContext";
 function MyApp({ Component, pageProps }) {
   return (
     <ToggleProvider>
