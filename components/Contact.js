@@ -15,13 +15,11 @@ function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
           setError(
             "Email sent successfully. I will respond as soon as possible."
           );
         },
         (error) => {
-          console.log(error.text);
           setError("Failed to send email");
         }
       );

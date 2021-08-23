@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Banner() {
   const resumeURL = process.env.NEXT_PUBLIC_RESUME_URL;
-  console.log(process.env.NEXT_PUBLIC_RESUME_URL);
+
   return (
     <section className="banner" id="banner">
       <div className="content">
