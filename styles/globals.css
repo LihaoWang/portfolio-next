@@ -533,6 +533,20 @@ p {
   max-width: 100%;
   padding-bottom: 20px;
 }
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.about-img {
+  width: 30%;
+  margin: auto;
+}
+p.about-text {
+  font-size: 18px;
+}
 
 /* Now, Make it responsive */
 @media (max-width: 992px) {
@@ -573,6 +587,7 @@ p {
     padding: 0 20px;
     padding-top: 80px;
   }
+
   .about .content {
     flex-direction: column;
   }
@@ -580,9 +595,13 @@ p {
     width: 100%;
     min-width: 100%;
   }
+
   .about .content .imgBx {
     margin-left: 0;
     margin-top: 20px;
+  }
+  p.about-text {
+    font-size: 18px;
   }
   .services .content {
     grid-template-columns: repeat(2, 1fr);
@@ -609,5 +628,8 @@ p {
   }
   .copyright {
     padding: 10px 20px;
+  }
+  p.about-text {
+    font-size: 15px;
   }
 }

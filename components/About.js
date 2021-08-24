@@ -8,7 +8,7 @@ function About() {
       </div>
       <div className="content">
         <div className="textBox">
-          <p>
+          <p className="about-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
             eligendi ratione quisquam. Ut officia perferendis nesciunt
             laudantium nisi voluptatibus repudiandae praesentium architecto.
@@ -20,8 +20,8 @@ function About() {
             error.
           </p>
         </div>
-        <div className="imgBx">
-          <img style={{ maxHeight: "50vh" }} src="bg1.JPG" alt="" />
+        <div style={{ maxWidth: "800px" }} className="imgBx">
+          <img src="me.png" alt="" />
         </div>
       </div>
     </section>
