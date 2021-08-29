@@ -7,20 +7,24 @@ function ulinks() {
   return (
     <div>
       <div className="">
-        <div className="project-nav">
-          <Link href="/">
+        <Link href="/">
+          <div className="project-nav">
             <AiFillHome className="home-btn" />
-          </Link>
-        </div>
+          </div>
+        </Link>
 
         <section className="project-section">
           <div className="content project-content">
             <h1>Ulinks</h1>
             <div className="btn-wrapper">
-              <a href="#" className="btn">
+              <a target="_blank" href="https://ulinks.cool" className="btn">
                 Live demo
               </a>
-              <a href="#" className="btn">
+              <a
+                target="_blank"
+                href="https://github.com/LihaoWang/ulinks"
+                className="btn"
+              >
                 Github Repo
               </a>
             </div>
