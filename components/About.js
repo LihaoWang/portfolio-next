@@ -9,15 +9,17 @@ function About() {
       <div className="content">
         <div className="textBox">
           <p className="about-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-            eligendi ratione quisquam. Ut officia perferendis nesciunt
-            laudantium nisi voluptatibus repudiandae praesentium architecto.
-            Recusandae odio iste ipsum consequatur aliquid obcaecati, quam
-            necessitatibus quos laboriosam saepe, ullam dolores veritatis sunt
-            error possimus omnis enim asperiores ad nemo placeat. Est enim
-            doloribus exercitationem ex quam? Animi incidunt quam suscipit fuga
-            labore et consequuntur reiciendis autem voluptate! In sed veritatis
-            error.
+            My name is Lihao Wang, a second-year Master's student in Computer
+            Science at NYU Tandon School of Engineering. I had experience in
+            developing web applications using React (Next.js), Firebase, and
+            CSS. I am a self-motivated person and enjoys trying out new
+            technology. In my spare time, I created a Chrome browser extension
+            that helps users manage their time and a bio link platform that
+            enables users to share links on one page easily. Besides the
+            technical aspect, I am also experienced in Web Design and UX Design.
+            I believe great products should be not only functional but also easy
+            to use. My passion for creating aesthetic and intuitive products
+            originates from the desire to impact and help others.
           </p>
         </div>
         <div style={{ maxWidth: "800px" }} className="imgBx">
