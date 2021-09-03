@@ -10,10 +10,20 @@ function Project() {
         <a href="https://github.com/LihaoWang/Website-blocker">
           <div className="workBx">
             <div className="imgBx">
-              <img src="freedom-thumbnail.jpg" alt="" />
+              <img src="freedom-thumbnail-1.jpg" alt="" />
             </div>
             <div className="textBx">
               <h3 style={{ textAlign: "center" }}>Freedom Website Blocker</h3>
+            </div>
+          </div>
+        </a>
+        <a href="https://github.com/LihaoWang/ulinks">
+          <div className="workBx">
+            <div className="imgBx">
+              <img src="ulinks-thumbnail-1.png" alt="" />
+            </div>
+            <div className="textBx">
+              <h3>Ulinks</h3>
             </div>
           </div>
         </a>
@@ -24,16 +34,6 @@ function Project() {
             </div>
             <div className="textBx">
               <h3>Xchange</h3>
-            </div>
-          </div>
-        </a>
-        <a href="https://github.com/LihaoWang/ulinks">
-          <div className="workBx">
-            <div className="imgBx">
-              <img src="ulinks-thumbnail.png" alt="" />
-            </div>
-            <div className="textBx">
-              <h3>Ulinks</h3>
             </div>
           </div>
         </a>
