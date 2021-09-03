@@ -18,6 +18,8 @@ export default function Home() {
       <Head>
         <title>Leo Wang</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="title" property="og:title" content="Lihao Wang" />
+        <meta name="image" property="og:image" content="img1.jpg" />
       </Head>
 
       <Nav />
